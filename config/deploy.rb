@@ -1,3 +1,4 @@
+require "bundler/capistrano"
 set :application, "getting_started_blog"
 set :repository,  "git://github.com/bsherman26/getting_started_blog.git"
 
@@ -12,7 +13,7 @@ default_run_options[:pty] = true
 # if you want to clean up old releases on each deploy uncomment this:
 # after "deploy:restart", "deploy:cleanup"
 
-If you are using Passenger mod_rails uncomment this:
+#If you are using Passenger mod_rails uncomment this:
 namespace :deploy do
  task :start do ; end
  task :stop do ; end
