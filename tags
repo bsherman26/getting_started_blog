@@ -1,0 +1,36 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+Application	config/application.rb	/^  class Application < Rails::Application$/;"	c	class:GettingStartedBlog
+ApplicationController	app/controllers/application_controller.rb	/^class ApplicationController < ActionController::Base$/;"	c
+ApplicationHelper	app/helpers/application_helper.rb	/^module ApplicationHelper$/;"	m
+Comment	app/models/comment.rb	/^class Comment < ActiveRecord::Base$/;"	c
+CommentsController	app/controllers/comments_controller.rb	/^class CommentsController < ApplicationController$/;"	c
+CommentsHelper	app/helpers/comments_helper.rb	/^module CommentsHelper$/;"	m
+CreateComments	db/migrate/20120814063525_create_comments.rb	/^class CreateComments < ActiveRecord::Migration$/;"	c
+CreatePosts	db/migrate/20120814014451_create_posts.rb	/^class CreatePosts < ActiveRecord::Migration$/;"	c
+CreateTags	db/migrate/20120815010847_create_tags.rb	/^class CreateTags < ActiveRecord::Migration$/;"	c
+GettingStartedBlog	config/application.rb	/^module GettingStartedBlog$/;"	m
+HomeController	app/controllers/home_controller.rb	/^class HomeController < ApplicationController$/;"	c
+HomeHelper	app/helpers/home_helper.rb	/^module HomeHelper$/;"	m
+Post	app/models/post.rb	/^class Post < ActiveRecord::Base$/;"	c
+PostsController	app/controllers/posts_controller.rb	/^class PostsController < ApplicationController$/;"	c
+PostsHelper	app/helpers/posts_helper.rb	/^module PostsHelper$/;"	m
+Tag	app/models/tag.rb	/^class Tag < ActiveRecord::Base$/;"	c
+change	db/migrate/20120814014451_create_posts.rb	/^  def change$/;"	f	class:CreatePosts
+change	db/migrate/20120814063525_create_comments.rb	/^  def change$/;"	f	class:CreateComments
+change	db/migrate/20120815010847_create_tags.rb	/^  def change$/;"	f	class:CreateTags
+create	app/controllers/comments_controller.rb	/^  def create$/;"	f	class:CommentsController
+create	app/controllers/posts_controller.rb	/^  def create$/;"	f	class:PostsController
+destroy	app/controllers/comments_controller.rb	/^  def destroy$/;"	f	class:CommentsController
+destroy	app/controllers/posts_controller.rb	/^  def destroy$/;"	f	class:PostsController
+edit	app/controllers/posts_controller.rb	/^  def edit$/;"	f	class:PostsController
+index	app/controllers/home_controller.rb	/^  def index$/;"	f	class:HomeController
+index	app/controllers/posts_controller.rb	/^  def index$/;"	f	class:PostsController
+join_tags	app/helpers/posts_helper.rb	/^  def join_tags(post)$/;"	f	class:PostsHelper
+new	app/controllers/posts_controller.rb	/^  def new$/;"	f	class:PostsController
+show	app/controllers/posts_controller.rb	/^  def show$/;"	f	class:PostsController
+update	app/controllers/posts_controller.rb	/^  def update$/;"	f	class:PostsController
