@@ -1,4 +1,5 @@
 require "bundler/capistrano"
+load "deploy/assets"
 set :application, "getting_started_blog"
 set :repository,  "git://github.com/bsherman26/getting_started_blog.git"
 
