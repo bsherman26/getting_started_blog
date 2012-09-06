@@ -21,4 +21,10 @@ namespace :deploy do
  task :restart, :roles => :app, :except => { :no_release => true } do
    run "#{try_sudo} touch #{File.join(current_path,'tmp','restart.txt')}"
  end
+
+ task :symlink_shared do
+   run "ln -nfs #{shared_path}/db/production.sqlite3 #{release_path}/db/production.sqlite3"
+ end
 end
+
+after 'deploy:update_code', 'deploy:symlink_shared'
